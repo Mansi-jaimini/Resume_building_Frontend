@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Add some padding if needed */
+  }
+  
+  .resume_review {
+    flex-grow: 1; /* Takes up most of the height */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px; /* Add padding inside the resume review area */
+    margin-bottom: 20px; /* Space between the resume review and buttons */
+    overflow-y: auto; /* If content is too long, it will be scrollable */
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
